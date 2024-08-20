@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var word=prompt("enter a word to check pallindorome")
+        var word=word.toLowerCase()
+
+        wordreverse=word.split('').reverse().join('')
+
+        if(word==wordreverse){
+            document.write("its is a pallindrome")
+        }
+        else{
+            document.write("it is not")
+        }
+    </script>
+</body>
+</html>
